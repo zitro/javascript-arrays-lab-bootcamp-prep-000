@@ -28,6 +28,6 @@ return kittens.splice(0,0,name)
 
 function removeLastKitten(){
   var kittens2 = [];
-  kittens2 = kittens.pop();
+  kittens2 = kittens.slice(0,-1);
   return kittens2;
 }
