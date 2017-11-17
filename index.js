@@ -23,3 +23,11 @@ var kittens2 = [];
  kittens2 = kittens.push(name);
 return kittens2;
 }
+
+function prependKitten(name){
+
+}
+
+function removeLastKitten(){
+  return kittens.split(0, -1)
+}
