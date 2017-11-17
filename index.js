@@ -27,5 +27,7 @@ return kittens.splice(0,0,name)
 }
 
 function removeLastKitten(){
-  return kittens.splice(-1,-1)
+  var kittens2 = [];
+  kittens2 = kittens.pop();
+  return kittens2;
 }
