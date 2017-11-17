@@ -2,5 +2,7 @@ const app = "I don't do much."
 
 function destructivelyAppendKitten(name){
   var kittens = [];
-  return kittens.push(name);
+  var kittens2 = [];
+  kittens2 = kittens.push(name);
+  return kittens2;
 }
